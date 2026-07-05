@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: capteai-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: capteai
+      POSTGRES_USER: capteai
+      POSTGRES_PASSWORD: capteai
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
