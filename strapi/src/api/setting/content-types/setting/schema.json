@@ -41,6 +41,7 @@
     },
     "whatsapp": {
       "type": "string",
+      "maxLength": 13,
       "required": true,
       "regex": "^\\d{12,13}$"
     },

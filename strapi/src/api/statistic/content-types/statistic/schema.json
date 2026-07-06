@@ -27,7 +27,9 @@
     },
     "decimals": {
       "type": "integer",
-      "default": 3
+      "default": 0,
+      "min": 0,
+      "max": 2
     }
   }
 }
