@@ -32,6 +32,9 @@
     "suffix": {
       "type": "string"
     },
+    "entities": {
+      "type": "string"
+    },
     "description": {
       "type": "text",
       "required": true

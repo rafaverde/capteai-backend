@@ -5,9 +5,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "items": {
       "type": "component",
       "component": "service.audience-item",

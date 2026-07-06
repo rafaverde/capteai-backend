@@ -114,7 +114,6 @@ O frontend nunca consome diretamente o formato do Strapi.
 
 ## WhoIsItFor
 
-- title
 - items (Repeatable AudienceItem)
 
 ### AudienceItem
@@ -160,6 +159,7 @@ A numeração é gerada automaticamente pelo frontend.
 
 - clientName
 - clientLogo
+- entities (Text)
 - prefix (opcional)
 - value (Text)
 - suffix (opcional)

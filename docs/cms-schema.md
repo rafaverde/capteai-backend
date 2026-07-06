@@ -77,7 +77,6 @@ Enum:
 
 | Campo | Tipo |
 |------|------|
-| title | Text |
 | items | Repeatable AudienceItem |
 
 ---
@@ -135,6 +134,7 @@ Enum:
 |------|------|
 | clientName | Text |
 | clientLogo | Media |
+| entities | Text (Opcional) |
 | prefix | Text (opcional) |
 | value | Text |
 | suffix | Text (opcional) |
