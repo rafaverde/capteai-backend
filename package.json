@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@strapi/provider-upload-aws-s3": "^5.50.0"
+	}
+}
