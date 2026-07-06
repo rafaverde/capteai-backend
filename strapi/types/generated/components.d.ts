@@ -30,7 +30,6 @@ export interface ServiceWhoIsItFor extends Struct.ComponentSchema {
   };
   attributes: {
     items: Schema.Attribute.Component<'service.audience-item', true>;
-    title: Schema.Attribute.String;
   };
 }
 

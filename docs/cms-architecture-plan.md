@@ -531,6 +531,7 @@ Não existirão páginas individuais para cada case.
 |--------|------|
 | clientName | Text |
 | clientLogo | Media |
+| entities | Text |
 | prefix | Text (opcional) |
 | value | Text |
 | suffix | Text (opcional) |
@@ -1041,7 +1042,6 @@ Representa a seção "Pra quem é?" presente nas páginas de Serviço.
 
 | Campo | Tipo |
 |--------|------|
-| title | Text |
 | items | Repeatable AudienceItem |
 
 ---
