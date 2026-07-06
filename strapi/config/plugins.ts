@@ -39,6 +39,7 @@ export default ({
 			provider: "aws-s3",
 
 			providerOptions: {
+				baseUrl: env("R2_PUBLIC_URL"),
 				s3Options: {
 					credentials: {
 						accessKeyId: env("R2_ACCESS_KEY_ID"),
