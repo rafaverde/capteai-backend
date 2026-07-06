@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "SocialLink",
+    "icon": "manyToOne"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "regex": "^https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,63}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)$"
+    },
+    "icon": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "instagram",
+        "linkedin",
+        "youtube",
+        "facebook",
+        "x",
+        "tiktok"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -316,7 +316,7 @@ Não existirão registros separados para essas visualizações.
 |--------|------|
 | name | Text |
 | slug | UID |
-| summary | Text |
+| summary | Long Text |
 | hero | Hero |
 | icon | Media (SVG) |
 | whoIsItFor | WhoIsItFor |
@@ -470,7 +470,7 @@ Os depoimentos serão utilizados em diferentes páginas do site, sempre em forma
 | author | Text |
 | role | Text |
 | company | Text |
-| content | Text |
+| content | Long Text |
 | avatar | Media (opcional) |
 
 ---
@@ -534,7 +534,7 @@ Não existirão páginas individuais para cada case.
 | prefix | Text (opcional) |
 | value | Text |
 | suffix | Text (opcional) |
-| description | Text |
+| description | Long Text |
 
 ---
 
@@ -677,7 +677,7 @@ Cada slide possui seu próprio conteúdo e pode, opcionalmente, destacar uma est
 | Campo | Tipo |
 |--------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 | image | Media |
 | imagePosition | Enumeration |
 | altText | Text |
@@ -916,7 +916,7 @@ Centralizar as informações de SEO utilizadas pelos Single Types.
 | Campo | Tipo |
 |--------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 | image | Media (opcional) |
 
 ---
@@ -1075,7 +1075,7 @@ Representa uma etapa da seção "Como funciona?" das páginas de Serviço.
 | Campo | Tipo |
 |--------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 
 ---
 

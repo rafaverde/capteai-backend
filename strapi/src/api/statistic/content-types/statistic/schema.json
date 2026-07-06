@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "decimal",
+      "required": true
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "decimals": {
+      "type": "integer",
+      "default": 3
+    }
+  }
+}

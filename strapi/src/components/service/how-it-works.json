@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_service_how_it_works",
+  "info": {
+    "displayName": "HowItWorks",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

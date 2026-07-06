@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_service_audience_items",
+  "info": {
+    "displayName": "AudienceItem",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

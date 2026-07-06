@@ -41,7 +41,7 @@ Enum:
 | Campo | Tipo |
 |------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 | image | Media (opcional) |
 
 ---
@@ -87,7 +87,7 @@ Enum:
 | Campo | Tipo |
 |------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 
 ---
 
@@ -99,7 +99,7 @@ Enum:
 |------|------|
 | name | Text |
 | slug | UID |
-| summary | Text |
+| summary | Long Text |
 | hero | Component Hero |
 | icon | Media (SVG) |
 | whoIsItFor | Component WhoIsItFor |
@@ -124,7 +124,7 @@ Enum:
 | author | Text |
 | role | Text |
 | company | Text |
-| content | Text |
+| content | Long Text |
 | avatar | Media (opcional) |
 
 ---
@@ -138,7 +138,7 @@ Enum:
 | prefix | Text (opcional) |
 | value | Text |
 | suffix | Text (opcional) |
-| description | Text |
+| description | Long Text |
 
 ---
 
@@ -168,7 +168,7 @@ Enum:
 | Campo | Tipo |
 |------|------|
 | title | Text |
-| description | Text |
+| description | Long Text |
 | image | Media |
 | imagePosition | Enum (left/right) |
 | altText | Text |

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_slides",
+  "info": {
+    "singularName": "hero-slide",
+    "pluralName": "hero-slides",
+    "displayName": "HeroSlide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 50,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 160,
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "default": "left",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "altText": {
+      "type": "string"
+    },
+    "ctas": {
+      "type": "component",
+      "component": "shared.hero-cta",
+      "repeatable": true,
+      "max": 2
+    },
+    "statistic": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::statistic.statistic"
+    },
+    "order": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}
