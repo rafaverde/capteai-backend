@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funding_entities",
+  "info": {
+    "singularName": "funding-entity",
+    "pluralName": "funding-entities",
+    "displayName": "FundingEntity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "hero": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false,
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "whoIsItFor": {
+      "type": "component",
+      "component": "service.who-is-it-for",
+      "repeatable": true,
+      "required": true
+    },
+    "howItWorks": {
+      "type": "component",
+      "component": "service.how-it-works",
+      "repeatable": true,
+      "max": 3
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

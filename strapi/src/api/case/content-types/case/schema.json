@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "Case"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clientName": {
+      "type": "string",
+      "required": true
+    },
+    "clientLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_hero_ctas",
+  "info": {
+    "displayName": "HeroCTA",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "default": "none",
+      "enum": [
+        "none",
+        "arrowLink",
+        "whatsapp"
+      ]
+    }
+  },
+  "config": {}
+}
