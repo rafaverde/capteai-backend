@@ -7,6 +7,7 @@ minimumReleaseAgeExclude:
 
 allowBuilds:
   '@swc/core': true
+  '@webbycrown/webbyblog': true
   core-js-pure: true
   esbuild: true
   sharp: true
