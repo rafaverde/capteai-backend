@@ -32,24 +32,6 @@
       "type": "richtext",
       "required": false
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": [
-        "webby-blog.text-block",
-        "webby-blog.image-block",
-        "webby-blog.image-content-block",
-        "webby-blog.quote-block",
-        "webby-blog.code-block",
-        "webby-blog.video-block",
-        "webby-blog.gallery-block",
-        "webby-blog.cta-block",
-        "webby-blog.heading-block",
-        "webby-blog.divider-block",
-        "webby-blog.faq-block",
-        "webby-blog.images-slider-block"
-      ],
-      "required": false
-    },
     "excerpt": {
       "type": "text",
       "required": false
@@ -75,12 +57,6 @@
       "target": "plugin::webbyblog.blog-tag",
       "inversedBy": "posts",
       "targetAttribute": "posts"
-    },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "required": false
     },
     "meta_title": {
       "type": "string",
