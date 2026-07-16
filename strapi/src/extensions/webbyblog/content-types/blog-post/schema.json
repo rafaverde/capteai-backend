@@ -26,7 +26,7 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
-      "required": false
+      "required": true
     },
     "content": {
       "type": "richtext",
