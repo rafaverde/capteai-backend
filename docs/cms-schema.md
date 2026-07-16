@@ -178,6 +178,36 @@ Enum:
 
 ---
 
+## BlogCategory
+| Campo | Tipo |
+|------|------|
+| name | Text |
+| slug | UID |
+
+---
+
+## BlogTag
+| Campo | Tipo |
+|------|------|
+| name | Text |
+| slug | UID |
+
+---
+
+## BlogPost
+| Campo | Tipo |
+|------|------|
+| title | Text |
+| slug | UID |
+| excerpt | Long Text |
+| content | Rich Text |
+| featuredImage | Media |
+| categories | Relation BlogCategory |
+| tags | Relation BlogTag |
+| seo | Component SEO (opcional) |
+
+---
+
 # Single Types
 
 ## Settings

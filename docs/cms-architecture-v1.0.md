@@ -1,7 +1,7 @@
 # Capte.AI Website
 # Arquitetura do CMS (Strapi)
 
-> Versão 1.0 – Documento de arquitetura do CMS.
+> Versão 1.1 – Documento de arquitetura do CMS.
 
 Este documento consolida as decisões arquiteturais do CMS da Capte.AI.
 
@@ -66,6 +66,9 @@ O frontend nunca consome diretamente o formato do Strapi.
 - FundingEntity
 - HeroSlide
 - Statistic
+- BlogCategory
+- BlogTag
+- BlogPost
 
 ## Single Types
 
@@ -190,6 +193,28 @@ A numeração é gerada automaticamente pelo frontend.
 - decimals (opcional)
 
 ---
+
+## BlogCategory
+- name
+- slug
+
+--- 
+
+## BlogTag
+- name
+- slug
+
+--- 
+
+## BlogPost
+- title
+- slug
+- excerpt
+- content (Rich Text)
+- featuredImage (Media)
+- categories (Relation BlogCategory)
+- tags (Relation BlogTag)
+- seo (Component SEO, opcional)
 
 # Single Types
 
