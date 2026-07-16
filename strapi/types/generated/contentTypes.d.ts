@@ -1363,26 +1363,6 @@ export interface PluginWebbyblogBlogPost extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    author: Schema.Attribute.Relation<
-      'manyToOne',
-      'plugin::users-permissions.user'
-    >;
-    blocks: Schema.Attribute.DynamicZone<
-      [
-        'webby-blog.text-block',
-        'webby-blog.image-block',
-        'webby-blog.image-content-block',
-        'webby-blog.quote-block',
-        'webby-blog.code-block',
-        'webby-blog.video-block',
-        'webby-blog.gallery-block',
-        'webby-blog.cta-block',
-        'webby-blog.heading-block',
-        'webby-blog.divider-block',
-        'webby-blog.faq-block',
-        'webby-blog.images-slider-block',
-      ]
-    >;
     category: Schema.Attribute.Relation<
       'manyToOne',
       'plugin::webbyblog.blog-category'
