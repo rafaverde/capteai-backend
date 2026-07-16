@@ -47,7 +47,7 @@
     "howItWorks": {
       "type": "component",
       "component": "service.how-it-works",
-      "repeatable": true,
+      "repeatable": false,
       "max": 3
     },
     "seo": {

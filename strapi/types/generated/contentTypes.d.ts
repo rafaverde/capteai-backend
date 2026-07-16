@@ -765,7 +765,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     hero: Schema.Attribute.Component<'shared.hero', false> &
       Schema.Attribute.Required;
-    howItWorks: Schema.Attribute.Component<'service.how-it-works', true> &
+    howItWorks: Schema.Attribute.Component<'service.how-it-works', false> &
       Schema.Attribute.SetMinMax<
         {
           max: 3;
