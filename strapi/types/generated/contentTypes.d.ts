@@ -765,7 +765,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     hero: Schema.Attribute.Component<'shared.hero', false> &
       Schema.Attribute.Required;
-    howItWorks: Schema.Attribute.Component<'service.how-it-works', false> &
+    howItWorks: Schema.Attribute.Component<'service.how-it-works', true> &
       Schema.Attribute.SetMinMax<
         {
           max: 3;
@@ -787,7 +787,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    whoIsItFor: Schema.Attribute.Component<'service.who-is-it-for', true> &
+    whoIsItFor: Schema.Attribute.Component<'service.who-is-it-for', false> &
       Schema.Attribute.Required;
   };
 }

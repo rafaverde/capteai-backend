@@ -41,13 +41,13 @@
     "whoIsItFor": {
       "type": "component",
       "component": "service.who-is-it-for",
-      "repeatable": true,
+      "repeatable": false,
       "required": true
     },
     "howItWorks": {
       "type": "component",
       "component": "service.how-it-works",
-      "repeatable": false,
+      "repeatable": true,
       "max": 3
     },
     "seo": {
